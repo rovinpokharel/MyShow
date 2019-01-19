@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rovin.pokharel.myshow.AddMovieActivity">
+
+<TextView
+    android:id="@+id/tv_chooseimage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CHOOSE IMAGE"
+    android:textAlignment="center"/>
+    <ImageView
+        android:id="@+id/iv_selectimage"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_addmovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Name"
+        android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_addmoviedesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Description"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_addscrenningdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Screening Date (yyyy-mm-dd)"
+            android:inputType="date"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinner_movie_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/movie_type"
+        android:prompt="@string/movie_type_prompt"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btn_addmovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        />
+
+</LinearLayout>

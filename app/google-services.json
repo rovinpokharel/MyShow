@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "404331481621",
+    "firebase_url": "https://myshow2-f5409.firebaseio.com",
+    "project_id": "myshow2-f5409",
+    "storage_bucket": "myshow2-f5409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404331481621:android:6dc1b8028f73fe0a",
+        "android_client_info": {
+          "package_name": "com.rovin.pokharel.myshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404331481621-74fulbo0bs1if1sa8na0mi3pk7i613ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rovin.pokharel.myshow",
+            "certificate_hash": "d5add840bc07c50b73c251c57a656765a2fd6fa5"
+          }
+        },
+        {
+          "client_id": "404331481621-7ob8738rv3asf80tper2pc12u9thgrq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBww3g_Z8scr8eR34T3_cgdn_fnqqBAYuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404331481621-7ob8738rv3asf80tper2pc12u9thgrq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

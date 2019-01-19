@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyShow</string>
+
+    <string name="movie_type_prompt">Choose showing type</string>
+    <string-array name="movie_type">
+        <item>Now Showing</item>
+        <item>Upcoming</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us_name">My Show is mobile application
+        based booking system, providing fully automated online ticketing, registration,
+        and booking services to people for easiness.\n
+    </string>
+    <string name="contact_us_name">My Show\n\n
+        BPR Group\n
+        Kathmandu, Nepal\n
+        Tel: 977-9843692200\n\n
+        For complains and enquiries:\n
+        rovinpokharel123@gmail.com
+    </string>
+    <string name="help_name">UNDER CONSTRUCTION
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

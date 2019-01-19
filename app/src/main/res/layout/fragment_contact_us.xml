@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rovin.pokharel.myshow.homefrags.ContactUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text=" My Show\n\n BPR Group\n Kathmandu, Nepal\n Tel: +977-9843692200\n\n For complains and enquiries:\n rovinpokharel123@gmail.com\n raute_biraj@gmail.com\n jhadi_puspe@gmail.com"/>
+
+</FrameLayout>
